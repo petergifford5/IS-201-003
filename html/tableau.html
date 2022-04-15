@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Peter Gifford, 4/14/2022-->
+        <title>Live Tableau Diagrams</title>
+        <link href="../styles/bootstyles.css" rel="stylesheet" /> <!--this lets me pull from my custom stylesheet, bootstyles.css-->
+    </head>
+    
+    <body class="tableaubackground" id="tableautop">
+        <div class="tableaucommon tableauheader"> <!--div 1 = navigation: header-->
+            <a href="../index.html">
+                <span class="tableaulinks">Home</span>
+            </a>  
+                &nbsp;&nbsp;<span class="verticalbarrier">|</span>&nbsp;&nbsp; <!--changing the style of the dividers |-->
+            <a href="aboutme.html">
+                <span class="tableaulinks">About Me</span>
+            </a> 
+                &nbsp;&nbsp;<span class="verticalbarrier">|</span>&nbsp;&nbsp;
+            <a href="tableau.html">
+                <span class="tableaulinks">Tableau</span>
+            </a>
+        </div>
+        
+        <div class="tableaucommon tableaumainbody"> <!--div 2 = embedded tableau dashboards and captions: main body-->
+            <h1 class="tableautitle">Tableau Charts</h1> <hr><br>
+                <!--Tableau Dashboard #1-->
+            <div class='tableauPlaceholder' id='viz1649902789239' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Product Sales by State' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WebDev1_16499025763170&#47;ProductSalesbyState&#47;1_rss.png' style='border: none'/>
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='WebDev1_16499025763170&#47;ProductSalesbyState' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WebDev1_16499025763170&#47;ProductSalesbyState&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>                
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1649902789239');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+            <p class="tableauforecastcaption"> <!--Caption #1-->
+                This Tableau Dashboard shows how well products are doing in each state. I used the sum of product sales as the measurement for this. Sales are highest in California.
+            </p> <br><br>
+        
+                <!--Tableau Dashboard #2-->
+            <div class='tableauPlaceholder' id='viz1649904630897' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='California Profits Last 2 Years ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WebDev2_16499046168800&#47;CaliforniaProfitsLast2Years&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='WebDev2_16499046168800&#47;CaliforniaProfitsLast2Years' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WebDev2_16499046168800&#47;CaliforniaProfitsLast2Years&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1649904630897');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+            <p class="tableauforecastcaption"> <!--Caption #2-->
+                Above is a Dashboard showing the profits from sales in California over the past 2 years. November 2013 was the most profitable month.
+            </p> <br><br>
+
+                <!--Tableau Dashboard #3-->
+            <div class='tableauPlaceholder' id='viz1649905338119' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='California Profits by Product Category ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WebDev3_16499053200260&#47;CaliforniaProfitsbyProductCategory&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='WebDev3_16499053200260&#47;CaliforniaProfitsbyProductCategory' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WebDev3_16499053200260&#47;CaliforniaProfitsbyProductCategory&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>                
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1649905338119');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+            <p class="tableauforecastcaption"> <!--Caption #3-->
+                This Dashboard shows the total profits from each category of products in California. Office Supplies sold the best.
+            </p> <br><br>
+
+                <!--Tableau Dashboard #4-->
+            <div class='tableauPlaceholder' id='viz1649907012440' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Forecast of California Profits from Office Supplies ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WebDev4_16499070033690&#47;ForecastofCaliforniaProfitsfromOfficeSupplies&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='WebDev4_16499070033690&#47;ForecastofCaliforniaProfitsfromOfficeSupplies' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WebDev4_16499070033690&#47;ForecastofCaliforniaProfitsfromOfficeSupplies&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1649907012440');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+            <p class="tableauforecastcaption"> <!--Caption #4-->
+                This Tableau Dashboard forecasts sales for California's largest product category, Office Supplies, through November 2015.
+                <br><br>
+                For more information, see <a href="https://public.tableau.com/app/discover" target="_blank" title="Tableau Public Web Page"><span class="tabweblink">Tableau Public</span></a>
+            </p>
+                <br>
+            <a href="#tableautop"><span class="whitecolor">Return to top</span></a> <!--Link back to the top of my Tableau page-->
+                <br><br><br><br>
+        </div>
+
+        <div class="tableaucommon tableaufooter"> <!--div 3 = footer -->
+            www.mywebsitename.com | Copyright &copy; | by Peter Gifford, 2022
+        </div>
+        
+    </body>
+</html>
+
